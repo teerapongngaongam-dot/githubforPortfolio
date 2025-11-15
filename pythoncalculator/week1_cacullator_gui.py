@@ -2,14 +2,14 @@ import tkinter as tk
 from tkinter import font
 
 class Calculator:
-def **init**(self, root):
+def __init__(self, root):
 self.root = root
 self.root.title(“Calculator”)
 self.root.geometry(“400x550”)
 self.root.resizable(False, False)
 self.root.configure(bg=”#1e1e1e”)
 
-```
+
     self.expression = ""
     self.result_var = tk.StringVar()
     self.result_var.set("0")
@@ -118,7 +118,7 @@ def on_button_click(self, char):
             self.expression = ""
         self.expression += str(char)
         self.result_var.set(self.expression)
-```
+
 
 if **name** == “**main**”:
 root = tk.Tk()
