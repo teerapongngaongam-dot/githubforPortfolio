@@ -11,7 +11,7 @@ class GuessingGame:
         self.root.configure(bg="#2c3e50")
         
         self.min_num = 1
-        self.max_num = 10
+        self.max_num = 100
         self.secret_number = random.randint(self.min_num, self.max_num)
         self.attempts = 0
         self.max_attempts = 10
