@@ -120,7 +120,7 @@ def on_button_click(self, char):
         self.result_var.set(self.expression)
 
 
-if __name__ == “**main**”:
+if __name__ == “__main__”:
 root = tk.Tk()
 calculator = Calculator(root)
 root.mainloop()
